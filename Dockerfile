@@ -8,4 +8,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY ./traefik_prism ./
 
-CMD [ "python", "/app/traefik_prism/docker_traefik_prism.py" ]
+CMD [ "python", "/app/traefik_prism.py" ]
